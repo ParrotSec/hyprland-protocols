@@ -1,0 +1,5 @@
+tar-ignore = build
+tar-ignore = debian/*-cache
+tar-ignore = debian/changelog.dch
+tar-ignore = .*.swp
+tar-ignore = *~

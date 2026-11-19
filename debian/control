@@ -1,0 +1,26 @@
+Source: hyprland-protocols
+Section: x11
+Priority: optional
+Maintainer: Parrot Dev Team <team@parrotsec.org>
+Uploaders: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Homepage: https://github.com/hyprwm/hyprland-protocols
+Vcs-Git: https://gitlab.com/parrotsec/packages/hyprland-protocols.git
+Vcs-Browser: https://gitlab.com/parrotsec/packages/hyprland-protocols
+
+Package: hyprland-protocols
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Description: Wayland protocol extensions for the Hyprland compositor
+ Hyprland protocols add functionality that is not available in
+ wayland-protocols. This package ships the protocol XML files together with
+ the pkg-config file used to locate them, and covers toplevel export for
+ screen sharing, global shortcuts, focus grabbing, colour transform control,
+ surface state, lock notification, toplevel mapping, workspace image capture
+ sources and input capture.

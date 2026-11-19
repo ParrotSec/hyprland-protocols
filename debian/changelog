@@ -1,0 +1,79 @@
+hyprland-protocols (0.8.0-1parrot1) echo-backports; urgency=medium
+
+  * New upstream release 0.8.0.
+  * Refresh the packaging for Parrot: debhelper compat 13 instead of 14,
+    Parrot maintainer and VCS fields, drop the Debian CI and autopkgtest
+    files.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 19 Nov 2026 13:59:52 +0100
+
+hyprland-protocols (0.8.0-1) unstable; urgency=medium
+
+  * New upstream version 0.8.0
+  * d/copyright: update holders and years
+
+ -- Carl Keinath <carl.keinath@gmail.com>  Mon, 19 Oct 2026 16:17:59 +0800
+
+hyprland-protocols (0.7.1-2) unstable; urgency=medium
+
+  * d/control: bump S-V to 4.7.4
+  * d/control: append Uploaders
+  * migrate to dh-compat 14
+  * wrap-and-sort debian dir
+
+ -- Carl Keinath <carl.keinath@gmail.com>  Tue, 22 Sep 2026 15:02:27 +0800
+
+hyprland-protocols (0.7.1-1) unstable; urgency=medium
+
+  * New upstream version 0.7.1
+  * d/control: Replace meson build-dep with cmake
+
+ -- Chow Loong Jin <hyperair@debian.org>  Tue, 22 Sep 2026 13:41:04 +0800
+
+hyprland-protocols (0.7.0-1) unstable; urgency=medium
+
+  * Salvage and move to team maintenance (Closes: #1130342)
+  * d/control: bump S-V to 4.7.3, remove RRR and Priority
+  * d/watch: migrate to Version 5
+  * add CI/CD config
+  * update copyright
+
+ -- Carl Keinath <carl.keinath@gmail.com>  Thu, 02 Apr 2026 18:24:25 +0800
+
+hyprland-protocols (0.7.0-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload
+  * New upstream version v0.7.0 (Closes: #1106520, #1117182)
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 06 Oct 2025 11:33:52 +0800
+
+hyprland-protocols (0.6.4-1) unstable; urgency=medium
+
+  * New upstream version v0.6.4
+
+ -- Alan M Varghese (NyxTrail) <alan@digistorm.in>  Sun, 04 May 2025 09:38:12 +0000
+
+hyprland-protocols (0.6.2-1) unstable; urgency=medium
+
+  * New upstream version: v0.6.2
+
+ -- Alan M Varghese (NyxTrail) <alan@digistorm.in>  Sun, 02 Mar 2025 06:28:42 +0000
+
+hyprland-protocols (0.4.0-1) unstable; urgency=medium
+
+  * New upstream version: v0.4.0
+
+ -- Alan M Varghese (NyxTrail) <alan@digistorm.in>  Fri, 11 Oct 2024 14:10:12 +0000
+
+hyprland-protocols (0.2+20240505-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * No change source-only upload to allow testing migration.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 27 Jul 2024 21:20:57 -0400
+
+hyprland-protocols (0.2+20240505-1) unstable; urgency=low
+
+  * Initial release. Closes: #1051806
+
+ -- Alan M Varghese (NyxTrail) <alan@digistorm.in>  Thu, 01 Feb 2024 19:19:45 +0000
